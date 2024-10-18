@@ -25,9 +25,3 @@ export async function sendScheduledSms(body:string,to:string,sendAt:Date) {
         throw error;
     }
 }
-    
-
-// sendScheduledSms();
-
-
-//used for scheduling 

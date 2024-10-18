@@ -93,8 +93,6 @@ export const getAllUser = async (
 //   }
 // };
 
-
-
 export const bookAppointment = async (req: Request, res: Response) => {
   const { name, phonenumber, smstosend, date, time } = req.body;
 

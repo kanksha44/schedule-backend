@@ -1,8 +1,8 @@
 import express from "express";
 const cors = require('cors')
 import dotenv from 'dotenv';
-import { AppDataSource } from "../Connection/data-source";
-import UserRoutes from "../routes/UserRoutes";
+import { AppDataSource } from "./Connection/data-source";
+import UserRoutes from "./routes/UserRoutes";
 
 dotenv.config();
 
